@@ -66,8 +66,8 @@ window.AIRCRAFT_LAYOUT = {
     // ── INSTRUMENTS ──
     function(){ return [
       mkPush(59,'SET BARO','\u25cf'),
-      mkRotary(61,61,'HDG BUG','#8ec5ff'),
-      mkRotary(65,65,'VOR OBS','#ffe082'),
+      mkRotary(118,117,'HDG BUG','#8ec5ff'),
+      mkRotary(236,235,'VOR OBS','#ffe082'),
       mkPush(67,'XPDR','\u2708'),
     ];},
 
