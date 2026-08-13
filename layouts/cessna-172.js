@@ -58,7 +58,6 @@ window.AIRCRAFT_LAYOUT = {
       mkAnn(121,'IGNITION',true,'ON'),
       mkAnn(108,'CARB/ANTI-ICE',true,'ON'),
       mkAnn(109,'PITOT HEAT',true,'ON'),
-      mkPush(102,'FUEL PUMP','\u26fd'),
       mkPush(123,'FUEL BOTH','\u25b2'),
       mkPush(124,'FUEL OFF','\u25bc'),
     ];},
