@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>Local Network Usage Description</key>
+		<string>FlightDeck connects to your ESP32 flight panel over your local WiFi network.</string>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+		<key>Status Bar is Initially Hidden</key>
+		<true/>
+		<key>Supported interface orientations</key>
+		<array>
+			<string>Landscape (left home button)</string>
+			<string>Landscape (right home button)</string>
+		</array>
+		<key>Supported interface orientations (iPad)</key>
+		<array>
+			<string>Landscape (left home button)</string>
+			<string>Landscape (right home button)</string>
+		</array>
+		<key>View controller-based status bar appearance</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
