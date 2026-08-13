@@ -5,6 +5,9 @@
 // idx values reference the fixed binding table on the ESP32 — these
 // never change per aircraft. Only which widgets appear, and how they're
 // arranged, changes.
+//
+// Refreshed to match the current 241-binding firmware (includes the
+// Increase/Decrease Heading Bug bindings at [239]/[240]).
 
 window.AIRCRAFT_LAYOUT = {
   aircraft: "Default (All Controls)",
@@ -405,7 +408,6 @@ window.AIRCRAFT_LAYOUT = {
     renderFMS();
     return {_type:'custom', el:wrap};
   }
-
   ],
 
   EXTRA_PANELS: [
